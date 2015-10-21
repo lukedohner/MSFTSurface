@@ -1,0 +1,9 @@
+{
+  "generator-atlas-banner": {
+    "bannerName": "MSFTSurfaceBlue_300x250",
+    "width": "300",
+    "height": "250",
+    "size": "200",
+    "numClickTags": "1"
+  }
+}

@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+#adBox {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  visibility: hidden; }
+
+#border {
+  width: 298px;
+  height: 248px;
+  border: 1px solid #000;
+  position: absolute;
+  z-index: 998; }
+
+#bgExit {
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 999; }
+
+/* add css styles here for banner elements that are not covered by setPos() */
+#cta {
+  width: 104px;
+  height: 56px;
+  overflow: hidden;
+  position: relative;
+  /*visibility: hidden;
+  background-color: #f47b23;
+  color: #fff;*/
+  /*font-family: arial;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;*/ }
+
+#ctahold {
+  width: 104px;
+  height: 28px;
+  overflow: hidden; }
+
+.fade {
+  -webkit-animation: fade .5s;
+  animation: fade .5s;
+  opacity: 1; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+#blueCover {
+  width: 300px;
+  height: 250px;
+  background-color: #0078d7; }
+
+#blueStrip {
+  width: 10px;
+  height: 250px;
+  background-color: #0078d7; }
+
+#whiteCover {
+  width: 290px;
+  height: 250px;
+  background-color: #ebebec; }
